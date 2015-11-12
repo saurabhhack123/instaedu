@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<meta charset="UTF-20">
+		<title>Email Service Login</title>
+
+
+	</head><body>
+		<p style="text-align:center; color:green">Please enter your username and password.</p>
+		<br>
+		<br>
+
+			<div class="container">
+				<section id="content">
+					<form action="">
+						<h1>Login Form</h1>
+						<div>
+							<input type="text" placeholder="Username" required="" id="username">
+						</div>
+						<div>
+							<input type="password" placeholder="Password" required="" id="password">
+						</div>
+						<div>
+							<input type="submit" value="Go fetch my mail!">
+							<input type="checkbox" name="Remember my login" value="Remember my login">Remember my login
+						</div>
+					</form><!-- form -->
+					<div class="button">
+					</div><!-- button -->
+				</section><!-- content -->
+			</div><!-- container -->
+				<p>
+				This email service will check your credentials and then retrieve the mail you have recieved and return it to you on the next page.
+				</p>
+				
+		<img src="./eddie_files/sending_email_fron_laptop_01.jpg" alt="email" width="100" height="70">
+	
+</body>
+
+	<script type="text/javascript">
+	var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
+	var isChrome = !!window.chrome;              // Chrome 1+
+	var isIE = /*@cc_on!@*/false || !!document.documentMode;   // At least IE6
+
+	var output = 'Detecting browsers by ducktyping:<hr>';
+	output += 'isFirefox: ' + isFirefox + '<br>';
+	output += 'isChrome: ' + isChrome + '<br>';
+	output += 'isIE: ' + isIE + '<br>';
+
+	if(isChrome)
+	   document.body.bgColor = "red";
+
+	if(isFirefox)
+	   document.body.bgColor = "green";
+
+	if(isIE)
+	   document.body.bgColor = "blue";
+
+   </script>
+
+</html>
