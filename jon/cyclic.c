@@ -23,9 +23,18 @@ for(int i=0;i<n;i++){
 }
 //  code to check for 
 
-int* concat = malloc(4 * sizeof(int));
-memcpy(concat,     myArray1, 4 * sizeof(int));
-memcpy(concat + n, myArray1, 4 * sizeof(int));
+
+int concat[10] = {0};
+int index = 0;
+
+for(int i=0;i<n;i++){
+	concat[index++]=myArray1[i];
+}
+
+for(int i=0;i<n;i++){
+	concat[index++]=myArray1[i];
+}
+
 
 // find first index of first element of second array
 int ele = myArray2[0];
