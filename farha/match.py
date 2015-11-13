@@ -6,8 +6,8 @@ def common_chars(string1 , string2):
 	return s
 
 
-string1 = raw_input("Enter string1:");
-string2 = raw_input("Enter string2:");
+string1 = strinput("Enter string1:");
+string2 = input("Enter string2:");
 
 str = common_chars(string1,string2)
 print "Final string :"+str
