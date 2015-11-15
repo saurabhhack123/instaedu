@@ -14,6 +14,5 @@ int main(){
     sc1.addItem(&d);
     double diff = sc1.totalPrice();
     cout << diff << endl;
-    
     return 0;
 }

@@ -35,4 +35,18 @@ def main():
 
     outfile.close()
     
+
+    op_file = open('numbers.txt', 'r')
+    contents = op_file.read()
+    new_contents = contents.replace('10','50')
+    new_contents = new_contents.replace('16',' ')
+    new_contents = new_contents.replace('17',' ')
+    new_contents = new_contents.replace('18',' ')
+    
+    outfile_new = open('numbers.txt', 'w')
+    outfile_new.write(new_contents)
+        
+
+    op_file.close()
+    
 main()
