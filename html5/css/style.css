@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+    padding: 0
+}
+body{
+	  color:#fff;
+	  font-family: 'Raleway', sans-serif;
+}
+#top_sec{
+    height:60em;
+    width:90em;
+    background-image: url("../img/hero.jpg");   
+    opacity: 0.95;
+}
+
+#top_sec h1{
+	padding-top: 10%;
+    padding-left: 44%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+#top_sec h3{
+	 font-family: 'Raleway', sans-serif;
+	 font-weight: 400;
+	 font-size: 24px;
+     margin-left: 16em;
+     margin-top: 1em;
+}
+#top_sec button{
+	width: 20em;
+    height: 3em;
+    margin-top: 1em;
+    margin-left: 35em;
+    background: none;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 17px;
+    cursor: pointer;
+}
+#top_sec button:hover{
+	background-color: #f81344;
+}
+
+#mid_sec{
+	background-color: #f81344;
+	height: 39em;
+}
+#mid_sec h1{
+	font-family: 'Raleway', sans-serif;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 51px;
+    text-align: center;
+}
+#mid_sec p{
+	    text-align: center;
+	    font-family:  'Raleway', sans-serif;
+}
+#mid_sec h3{
+	text-align: center;
+    padding-top: 2em;
+    font-size: 29px;
+    padding-bottom: 2em;
+    font-weight: 300;
+}
+#bot_sec{
+	height: 70em;
+}
+#bot_sec h1{
+	color: #f81344;
+	font-family:  'Raleway', sans-serif;
+	padding-top: 1em;
+    font-size: 67px;
+    text-align: center;
+}
+#left_sec{
+	width: 39%;
+    height: 40em;
+     margin-left: 8em;
+    float: left;
+}
+#right_sec{
+	width: 38%;
+    height: 40em;
+    margin-left: 50%;
+}
+#right_sec h3{
+    color: #f81344;
+	font-family:  'Raleway', sans-serif;
+	padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 500;
+    font-size: 26px;
+}
+#right_sec p{
+	color: #000;
+    font-family:  'Raleway', sans-serif;
+}
+#left_sec h3{
+    color: #f81344;
+	font-family:  'Raleway', sans-serif;
+	padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 500;
+    font-size: 26px;
+    padding-left: 2em;
+}
+#form{
+	padding-left: 3em;
+	width: 30em;
+	color: #000;
+   font-family:  'Raleway', sans-serif;
+   font-weight: 500;
+}
+fieldset{
+	border-color: #f81344;
+    padding: 21px;
+}
+#form input{
+	width: 40em;
+    height: 2em;
+    margin-top: 5px;
+    border: 0.2px solid rgb(248,19,68);
+}
+#tee_type{
+	width:10px !important;
+	margin-right: 4px;
+}
+#term{
+	width: 10px !important;
+	margin-right: 4px;
+}
+#form button{
+	width: 13em;
+    margin-top: 3em;
+    height: 4em;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f81344;
+    font-weight: 500;
+    border: none;
+    font-size: 15px;
+    border-radius: 0.2em;
+    cursor: pointer;
+    border-color: #f92754;
+}
+#form button:hove{
+    background-color: #f92754;
+}

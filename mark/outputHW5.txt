@@ -1,0 +1,70 @@
+Reading scores for students are: 
+400
+520
+480
+440
+420
+680
+420
+220
+480
+720
+660
+540
+660
+440
+780
+640
+math scores for students are: 
+540
+330
+560
+400
+580
+550
+560
+350
+460
+780
+520
+680
+420
+340
+720
+640
+writing scores for students are: 
+800
+710
+520
+380
+760
+330
+460
+580
+400
+680
+780
+660
+680
+460
+760
+640
+total scores of students are: 
+1740
+1560
+1560
+1220
+1760
+1560
+1440
+1150
+1340
+2180
+1960
+1880
+1760
+1240
+2260
+1920
+Max number of marks taken by student with ID: 123
+Number of students with more than 650 marks are 8
